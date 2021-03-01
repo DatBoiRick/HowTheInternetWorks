@@ -76,17 +76,31 @@
 <div class="row">
   <div class="col-4">
     <div class="list-group" id="list-tab" role="tablist">
-      <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="home">Intro</a>
+      <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="home">Introduction</a>
       <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="profile">HTTP</a>
       <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="messages">HTTPS</a>
     </div>
   </div>
   <div class="col-8">
     <div class="tab-content" id="nav-tabContent">
-      <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">...</div>
-      <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">...</div>
-      <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...</div>
-      <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
+      <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+        <p>Ever wonder how do all of the computers all around the world communicate wirth each other? To better understand they communicate we can take a look at web browser.First you would open the web browser and type in the web address or URL which stands for Uniform Resource Locator.
+        <p>As soon as you click enter your computer begins to talk to another computer know as a server that is usually thousands of miles away. In those millisecond your computer is asking that server for a website.  The server then talks back to your computer, and the language they are using to talk to each other is HTTP.</div></p>
+      <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">Stands for Hyper Text Transfer Protocol and we can think of it as the language one computer uses to communicate between web browsers and servers for a document. The process of the language is pretty simple, if you were to intercept a message between the computer and server you would see that it is mainly made up of “GET” requests. Those request are written as “GET” followed by the name of the document you are requesting. When you tell a server to get you the page you are asking for the HTML code </div>
+      <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">Stands for Hyper Text Transfer Protocol Secure.We know the internet is completely open with information being sent in plain text, this makes it possible for hackers to obtain any personal information that you send over the internet.
+      <p> </p>
+
+        <dl class="row">
+  <dt class="col-sm-3">SSL & TLS</dt>
+  <dd class="col-sm-9">However safe websites can pervert from snooping and tampering by asking a web browser to communicate on a secure channel using Secure Sockets Layer (SSL) and Transport layer Security (TSL). These secures are in action when you see the little lock image in your address bar.  </dd>
+<p> </p>
+  <dt class="col-sm-3">Digital Certificates</dt>
+  <dd class="col-sm-9">When a website asks a browser for a secure connection the server will ask for a digital certificate which is like an official ID card proving it is the website it claims to be. These digital certificates are created by trusted entities that verify identities of websites and issue a certifacte for them.  Similar to how the government issues IDs or Passports. Creating a secure connection with out a digital certificate will cause a warning that the certificate is invalid or not trusted.</dd>
+<p> </p>
+        </dl>
+  </dd>
+</dl>
+      </div>
     </div>
   </div>
 </div>
